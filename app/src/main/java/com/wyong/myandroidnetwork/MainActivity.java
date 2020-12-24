@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                     HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                     connection.setConnectTimeout(10000);
                     connection.setRequestMethod("GET");
-                    connection.setRequestProperty("accept", "*/*");
+                    connection.setRequestProperty("Accept", "*/*");
                     connection.setRequestProperty("connection", "keep-alive");
                     connection.setRequestProperty("Accept-Language", "zh-CN,zh");
                     connection.connect();
