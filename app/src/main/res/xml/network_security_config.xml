@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config>
+        <domain includeSubdomains="true">sunofbeach.net</domain>
+        <domain includeSubdomains="true">sunofbeachs.com</domain>
+        <domain-config cleartextTrafficPermitted="true">
+            <domain includeSubdomains="true">www.sunofbeach.net</domain>
+            <domain includeSubdomains="true">www.sunofbeachs.com</domain>
+            <domain includeSubdomains="true">imgs.sunofbeaches.com</domain>
+            <domain includeSubdomains="true">10.0.2.2</domain>
+            <domain includeSubdomains="true">192.168.137.1</domain>
+        </domain-config>
+    </domain-config>
+</network-security-config>
