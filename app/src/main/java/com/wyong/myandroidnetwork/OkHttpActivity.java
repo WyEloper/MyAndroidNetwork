@@ -32,7 +32,7 @@ import okhttp3.Response;
 import okhttp3.ResponseBody;
 
 /**
- * OkHttp 发起网络请求。
+ * OkHttp 发起网络请求。 (学习)
  * <p>
  * 服务器 接口地址：https://github.com/TrillGates/SOBAndroidMiniWeb
  * <p>
