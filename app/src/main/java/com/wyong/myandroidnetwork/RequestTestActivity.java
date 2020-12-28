@@ -35,6 +35,9 @@ import java.util.Map;
 import java.util.Set;
 
 /**
+ *
+ * Java 原生API 发起网络请求。
+ *
  * 服务器 接口地址：https://github.com/TrillGates/SOBAndroidMiniWeb
  * <p>
  * 真机调试地址：http://192.168.137.1:9102/get/param
