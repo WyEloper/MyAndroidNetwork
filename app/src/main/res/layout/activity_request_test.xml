@@ -25,4 +25,25 @@
         android:text="postWithParams"
         android:onClick="postWithParams"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="postFile"
+        android:onClick="postFile"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="postFiles"
+        android:onClick="postFiles"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="downLoadFile"
+        android:onClick="downLoadFile"/>
+
 </LinearLayout>
