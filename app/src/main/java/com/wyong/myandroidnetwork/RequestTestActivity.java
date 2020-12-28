@@ -25,14 +25,10 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.net.URLConnection;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 /**
  *
@@ -223,6 +219,7 @@ public class RequestTestActivity extends AppCompatActivity {
                 InputStream inputStream = null;
                 BufferedInputStream bfi = null;
                 try {
+                    // 文件路径名 /storage/emulated/0/Android/data/com.wyong.myandroidnetwork/files/Pictures/11.png
                     File file = new File("/sdcard/1601017789861.jpg");
                     String fileKey = "file";
                     String fileName = file.getName();
@@ -521,8 +518,8 @@ public class RequestTestActivity extends AppCompatActivity {
                 } catch (Exception e) {
                     e.printStackTrace();
                 } finally {
-                    IOUtils.ioClose(fileOutputStream);
-                    IOUtils.ioClose(inputStream);
+                    IOUtils.closeIO(fileOutputStream);
+                    IOUtils.closeIO(inputStream);
                 }
             }
         }).start();
